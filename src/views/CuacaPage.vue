@@ -120,6 +120,11 @@ ion-title {
   color: #fff;
 }
 
+ion-toolbar {
+  --background: #252b30;
+  --color: #ffffff;
+}
+
 ion-card {
   margin: 12px 16px;
   border-radius: 20px;
