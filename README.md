@@ -55,27 +55,31 @@ Struktur tersebut merupakan gambaran umum. Susunan folder dapat berbeda sesuai k
 
 Pastikan Node.js dan npm sudah terpasang di komputer.
 
-1. Unduh repository melalui tombol **Code → Download ZIP**, kemudian ekstrak berkasnya. Alternatifnya, gunakan perintah `git clone` jika Git sudah tersedia.
-2. Buka terminal pada folder utama proyek yang berisi `package.json`.
-3. Instal dependensi dengan perintah:
+1. **Unduh source code:** Buka repository GitHub, klik **Code → Download ZIP**, kemudian ekstrak berkas ZIP tersebut. Alternatifnya, gunakan perintah `git clone` jika Git sudah tersedia.
+
+2. **Buka folder proyek:** Buka folder hasil ekstraksi melalui VS Code. Pastikan folder yang dibuka merupakan folder utama proyek yang berisi file `package.json`, bukan hanya folder `src` atau subfolder lainnya.
+
+3. **Instal dependensi:** Buka terminal pada folder utama proyek, kemudian jalankan perintah berikut:
 
    ```bash
    npm install
    ```
 
-4. Jalankan aplikasi menggunakan:
+   Tunggu hingga proses instalasi selesai.
+
+4. **Jalankan aplikasi:** Setelah dependensi berhasil diinstal, jalankan perintah:
 
    ```bash
    npm run dev
    ```
 
-5. Buka alamat lokal yang ditampilkan oleh terminal pada browser.
+5. **Buka aplikasi:** Buka alamat lokal yang ditampilkan pada terminal di browser, misalnya `http://localhost:5173/`. Alamat yang muncul dapat berbeda sesuai konfigurasi proyek.
 
-Jika perintah `npm run dev` tidak tersedia, periksa bagian `scripts` dalam `package.json` dan gunakan perintah yang memang disediakan oleh proyek.
+
 
 ## Tujuan Pembelajaran
 
-Melalui proyek ini, mahasiswa berlatih mengambil data dari API eksternal, membaca struktur respons JSON, mengolah array, menggunakan data reaktif Vue, serta menampilkan informasi secara dinamis dengan komponen Ionic.
+Melalui proyek ini, Kita berlatih mengambil data dari API eksternal, membaca struktur respons JSON, mengolah array, menggunakan data reaktif Vue, serta menampilkan informasi secara dinamis dengan komponen Ionic.
 
 ## Sumber
 
